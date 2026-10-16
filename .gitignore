@@ -9,5 +9,6 @@
 *.idx1-ubyte
 *.csv
 fomaml_datasets/
+first_sim_results
 .venv/
-first_sim_results/
+

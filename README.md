@@ -24,7 +24,7 @@ Each graph compares all four clients (dining room, garden, Coral Dev Board Micro
 
 | Metric | Accuracy | Loss |
 |:---:|:---:|:---:|
-| **Support set** | <img src="results/client_supp_accuracies.png" width="380"/> | <img src="iresults/client_supp_losses.png" width="380"/> |
+| **Support set** | <img src="results/client_supp_accuracies.png" width="380"/> | <img src="results/client_supp_losses.png" width="380"/> |
 | **Query set (before adaptation)** | <img src="results/client_query_before_accuracies.png" width="380"/> | <img src="results/client_query_before_losses.png" width="380"/> |
 | **Query set (after adaptation)** | <img src="results/client_query_after_accuracies.png" width="380"/> | <img src="results/client_query_after_losses.png" width="380"/> |
 
