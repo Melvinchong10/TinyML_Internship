@@ -1,0 +1,12 @@
+.DS_Store
+*.pyc
+*.out
+*.asv
+*.mat
+.idea/
+*.bin
+*.idx3-ubyte
+*.idx1-ubyte
+*.csv
+fomaml_datasets/
+.venv/

@@ -1,0 +1,15 @@
+Clients local round average training time: 
+garden:  0.0020030028s
+dining:  0.0020027224s
+coral:  0.8177057216s
+nano:  0.8964878737s
+
+Client's Memory Usage:
+nano: Flash = 692.64kB (70% of Total Flash) -includes the tflite model which was converted to raw C array and stored in flash
+      Global/Static SRAM usage = 170kB (64% of total SRAM) -includes reserved tensor arena and camera frame buffer
+      Tensor Arena allocated = 110 * 1024 = 112.6kB reserved for tflite model in SRAM
+
+coral: Flash = 495.5kB (0.37% of Total Flash) -including tflite model even though stored on seperate partition
+       SRAM usage = 364.7kB (47% of total SRAM)
+       SDRAM usage = 610kB (2% of Total SDRAM)-including reserved tensor arena and camera frame buffer
+       Tensor Arena allocated = 200 * 1024 = 204.8kB reserved for tflite model in SDRAM
