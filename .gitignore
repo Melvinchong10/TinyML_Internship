@@ -10,3 +10,4 @@
 *.csv
 fomaml_datasets/
 .venv/
+first_sim_results/
